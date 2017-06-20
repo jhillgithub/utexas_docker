@@ -1,11 +1,6 @@
 # start from base
-FROM ubuntu:16.04
+FROM node:alpine
 # MAINTAINER jhillgithub <jeremy.hill.email@gmail.com>
-
-# install system-wide dependencies
-RUN apt-get -yqq update
-RUN apt-get -yqq install nodejs npm
-RUN ln -s /usr/bin/nodejs /usr/bin/node
 
 # Expose Port 3000 for express (defined in server.js)
 EXPOSE 3000

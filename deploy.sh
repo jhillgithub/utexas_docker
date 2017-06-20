@@ -15,6 +15,6 @@ docker rmi jhillgithub/node-example || true
 # Grab the latest image
 docker pull jhillgithub/node-example
 
-docker run -d --name app --restart always -p 3000:3000 jhillgithub/node-example
+docker run -d --name app --restart always -p 80:3000 jhillgithub/node-example
 
 EOF
