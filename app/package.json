@@ -1,0 +1,23 @@
+{
+  "name": "node-example",
+  "version": "1.0.1",
+  "description": "Example of a Docker Node App",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhillgithub/utexas_docker.git"
+  },
+  "author": "jhillgithub",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhillgithub/utexas_docker/issues"
+  },
+  "homepage": "https://github.com/jhillgithub/utexas_docker#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
