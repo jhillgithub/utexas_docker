@@ -5,7 +5,7 @@ docker push jhillgithub/node-example
 
 # Log into cloud host using ssh key
 # @NOTE: https://www.shellhacks.com/ssh-execute-remote-command-script-linux/
-ssh -i $CREDS dockeruser@$APP_IP_ADDRESS << EOF
+ssh -i $CREDS $APP_USER@$APP_IP_ADDRESS << EOF
 # https://stackoverflow.com/questions/34228864/stop-and-delete-docker-container-if-its-running
 docker stop app || true && docker rm app || true
 
