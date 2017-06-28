@@ -18,6 +18,8 @@ docker login
 
 You will also need a running EC2 instance, the ip address for that server, and the *.pem file to login.
 
+* You EC2 instance will also need a security group policy that allows **HTTP** on port 80 from anywhere. Checkout this [link](https://stackoverflow.com/questions/5004159/opening-port-80-ec2-amazon-web-services/10454688#10454688) for instructions.
+
 ## Configuring AWS
 
 The following steps show how to configure the AWS EC2 instance to use Docker.
@@ -115,7 +117,7 @@ You should now be able to visit the running app in the browser using the IP Addr
 * Replace the IP address below with your EC2 IP Address
 
 ```shell
-13.15.196.198:3000
+13.15.196.198
 ```
 
 ## Author
