@@ -55,7 +55,16 @@ Add ec2-user to docker group so you can run docker without sudo
 sudo usermod -a -G docker ec2-user
 ```
 
+Log out of EC2 and then Login again to pick up the new group permissions
+
+```shell
+exit
+ssh -i /path/to/*.pem ec2-user@<ec2 instance ip address>
+```
+
 Test Docker
+
+* **Note**, the next step will not work unless you logout and log back in
 
 ```shell
 docker info
