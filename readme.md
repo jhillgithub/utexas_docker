@@ -109,7 +109,7 @@ You should now be able to visit the running app in the browser using the IP Addr
 13.15.196.198:3000
 ```
 
-## Authors
+## Author
 
 * **Jeremy Hill**
 
