@@ -1,3 +1,6 @@
+# Setup Instructions
+# http://docs.aws.amazon.com/AmazonECS/latest/developerguide/docker-basics.html
+
 # SSH into the server
 ssh -i /path/to/*.pem ec2-user@$APP_IP_ADDRESS
 
