@@ -103,6 +103,8 @@ CREDS="~/.aws/aws.pem" APP_USER=ec2_user APP_IP_ADDRESS="13.15.196.198" ./deploy
 
 You should now be able to visit the running app in the browser using the IP Address for the App.
 
+* Replace the IP address below with your EC2 IP Address
+
 ```shell
 13.15.196.198:3000
 ```
